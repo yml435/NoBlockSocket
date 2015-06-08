@@ -61,7 +61,7 @@ void client5_2(){
     bzero(&servaddr,sizeof(servaddr));
     servaddr.sin_family=AF_INET;
     servaddr.sin_port=htons(9877);
-    if(inet_pton(AF_INET,addr,&servaddr.sin_addr)==NULL){
+    if(inet_pton(AF_INET,addr,&servaddr.sin_addr)==0){
         err_sys("inet_pton,error");
     }
     if(signal(SIGPIPE,cache_sigpipe)==SIG_ERR){

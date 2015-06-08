@@ -1,5 +1,6 @@
 #ifndef LIB_H
 #define LIB_H
+#include    <fcntl.h>
 #include    <stdio.h>
 #include	<sys/types.h>	/* basic system data types */
 #include	<sys/socket.h>	/* basic socket definitions */
@@ -32,6 +33,7 @@
 #define err_sys(str)  printf("%s\n",str);
 #define sys_quit(str) printf("%s\n",str); exit(0);
 #define max(a,b) (a)>(b)? (a):(b)
+#define sys_msg(str)  printf("%s\n",str);
 static int	read_cnt;
 void Bind(int fd, const struct sockaddr *sa, socklen_t salen);
 void Listen(int fd, int backlog);
