@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1433298964 source:/home/yml/C++/UNAPI/ClientSocket/lib.cpp
+	"lib.h"
+	<stdio.h>
+
+1433237962 /home/yml/C++/UNAPI/ClientSocket/lib.h
+	<iostream>
+	<stdio.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<time.h>
+	<sys/time.h>
+	<time.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<errno.h>
+	<fcntl.h>
+	<netdb.h>
+	<signal.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/stat.h>
+	<sys/uio.h>
+	<unistd.h>
+	<sys/wait.h>
+	<sys/un.h>
+
+1433298541 source:/home/yml/C++/UNAPI/ClientSocket/main.cpp
+	<iostream>
+	"Client.h"
+
+1433308920 /home/yml/C++/UNAPI/ClientSocket/Client.h
+	"lib.h"
+
+1433309081 source:/home/yml/C++/UNAPI/ClientSocket/Client.cpp
+	"Client.h"
+
